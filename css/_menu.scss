@@ -1,0 +1,35 @@
+.menu__list {
+    padding: 0;
+}
+
+.menu__item {
+    text-transform: uppercase;
+    list-style: none;
+    background-color: black;
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+
+}
+
+.menu__item:hover {
+    background-color: gray;
+}
+
+.menu__link {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 640px) {
+    .menu__list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .menu__item {
+        flex-grow: 1;
+    }
+}
