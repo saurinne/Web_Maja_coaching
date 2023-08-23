@@ -1,34 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>MaJa koučink</title>
-</head>
-
-<body>
-    <!--Záhlaví, zde posléze hodit do šablony-->
-    <header>
-        <div class="head">
-            <div class="header__picture">
-                <img class="header__logo" src="./images/logo.png" alt="logo MaJa koučink">
-            </div>
-
-            <h1 class="header__name--main">Mgr. Marie Nosálková</h1>
-            <h2 class="header__name--specification">psycholog, kouč</h2>
-
-        </div>
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item"><a href="./index.html" class="menu__link">Úvod</a></li>
-                <li class="menu__item"><a href="./sluzby.html" class="menu__link">Služby a ceník</a></li>
-                <li class="menu__item"><a href="./omne.html" class="menu__link">O mně</a></li>
-                <li class="menu__item"><a href="./kontakt.html" class="menu__link">Kontakt</a></li>
-                <li class="menu__item"><a href="/" class="menu__link">Blog </a></li>
-            </ul>
-        </nav>
-    </header>
+---
+layout: general_template.njk
+title: MaJa Koučink
+---
 
 <main>
     <section class="blok contacts">
@@ -48,15 +21,3 @@
 
     </section>
 </main>
-
-<footer>
-    <img class="footer__image" src="./images/forest.png" alt="les">
-
-    <p class="footer__text">Maja koučink</p>
-    <p class="footer__text">telefon: 666 666 666</p>
-    <p class="footer__text">Email: tady_vladnu_ja@muhehe.cz</p>
-
-</footer>
-
-</body>
-</html>
