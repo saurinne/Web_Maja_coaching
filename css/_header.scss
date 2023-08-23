@@ -3,6 +3,11 @@
     padding: 20px;
 }
 
+.header__picture img {
+    max-height: 250px;
+}
+
+
 .header__name--main {
     font-weight: 200;
     padding: 10px 0;
@@ -13,3 +18,16 @@
     font-weight: 100;
     font-size: 20px;
 }
+
+@media screen and (min-width: 640px) {
+    .head {
+        display: flex;
+        padding: 0 30px;
+    }
+
+    .header__text {
+        place-self: center end;
+        flex-grow: 1;
+        text-align: right;
+    }
+} 

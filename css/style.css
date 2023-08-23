@@ -42,24 +42,33 @@ body {
   margin: 0;
   color: #020202;
   font-family: "Montserrat", sans-serif;
+  background-color: #E8DED1;
   font-size: 16px;
   font-weight: 200;
-  background-color: #E8DED1;
   width: 100%;
 }
 
 h1, h2, ul, li {
   margin: 0;
+  padding: 0;
 }
 
 img {
   max-width: 100%;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
   body {
+    background-color: #008B00;
+    background: url(/images/forest.png);
+    padding-top: 20px;
+  }
+  .text {
     max-width: 900px;
-    margin: 0 auto 80px auto;
+    margin: 0 auto;
+    background-color: #E8DED1;
+    border-radius: 10px;
+    padding: 20px;
   }
 }
 .footer__image {
@@ -74,6 +83,10 @@ img {
   padding: 20px;
 }
 
+.header__picture img {
+  max-height: 250px;
+}
+
 .header__name--main {
   font-weight: 200;
   padding: 10px 0;
@@ -84,6 +97,17 @@ img {
   font-size: 20px;
 }
 
+@media screen and (min-width: 640px) {
+  .head {
+    display: flex;
+    padding: 0 30px;
+  }
+  .header__text {
+    place-self: center end;
+    flex-grow: 1;
+    text-align: right;
+  }
+}
 .blok {
   margin: 20px;
 }
