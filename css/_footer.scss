@@ -1,17 +1,42 @@
 @use "colors";
 
+.divide {
+    position: relative;
+    margin-bottom: -5px;
+    padding: 0;
+}
+
+.divide__image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.divide__gradient--light {
+    height: 60px;
+    background-image: linear-gradient(colors.$background, rgba(255,0,0,0));
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 100%;
+}
+
+.divide__gradient--dark {
+    height: 60px;
+    background-image: linear-gradient(rgba(255,0,0,0), colors.$main);
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 100%;
+}
+
 footer {
     background-color: colors.$main;
     color: colors.$background;
-    padding-bottom: 20px;
+    padding: 10px 0 20px 0;
     text-align: center;
 }
 
-.footer__image {
-    width: 100%;
-    max-height: 80px;
-    object-fit: cover;
-}
 
 .footer__text {
     margin: 5px;
