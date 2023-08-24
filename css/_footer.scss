@@ -3,3 +3,9 @@
     max-height: 80px;
     object-fit: cover;
 }
+
+@media screen and (min-width: 1000px) {
+    .footer__image {
+        display: none;
+    }
+}

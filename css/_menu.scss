@@ -1,23 +1,29 @@
+@use "colors";
+
+
 .menu__list {
     padding: 0;
 }
 
-.menu__item {
+.menu__link {
     text-transform: uppercase;
     list-style: none;
-    background-color: black;
+    background-color: colors.$main;
     padding: 10px;
     margin: 2px;
     text-align: center;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2)
 
 }
 
-.menu__item:hover {
+.menu__link:hover {
     background-color: gray;
 }
 
 .menu__link {
-    color: white;
+    color: colors.$background;
     text-decoration: none;
 }
 
@@ -29,7 +35,7 @@
 
     }
 
-    .menu__item {
+    .menu__link {
         flex-grow: 1;
     }
 }
