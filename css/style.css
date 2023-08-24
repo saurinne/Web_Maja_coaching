@@ -60,6 +60,11 @@ img {
   max-width: 100%;
 }
 
+section {
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (min-width: 1000px) {
   body {
     background-color: #008B00;
@@ -74,11 +79,26 @@ img {
     padding: 20px;
   }
 }
+footer {
+  background-color: #020202;
+  color: #E8DED1;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 .footer__image {
   width: 100%;
   max-height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.footer__text {
+  margin: 5px;
+}
+
+.footer__link {
+  color: #E8DED1;
 }
 
 @media screen and (min-width: 1000px) {

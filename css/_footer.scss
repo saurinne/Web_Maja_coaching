@@ -1,7 +1,23 @@
+@use "colors";
+
+footer {
+    background-color: colors.$main;
+    color: colors.$background;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 .footer__image {
     width: 100%;
     max-height: 80px;
     object-fit: cover;
+}
+
+.footer__text {
+    margin: 5px;
+}
+.footer__link {
+    color: colors.$background;
 }
 
 @media screen and (min-width: 1000px) {
