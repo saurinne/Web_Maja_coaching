@@ -2,6 +2,7 @@
 
 html { 
     box-sizing: border-box; 
+    height: 100%;
 }
 
 *, ::before, ::after { 
@@ -19,6 +20,7 @@ body {
     background-color: colors.$background;
     background: url(/images/bila2.png);
     object-fit: cover;
+    min-height: 100%;
 }
 
 h1, h2, ul, li {
