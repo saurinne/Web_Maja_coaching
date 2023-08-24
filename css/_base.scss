@@ -10,12 +10,15 @@ html {
 
 body {
     margin: 0;
-    color: colors.$main;
+    color: colors.$letters;
     font-family: 'Montserrat', sans-serif;
-    background-color: colors.$background;
     font-size: 16px;
     font-weight: 200;
     width: 100%;
+    position: relative;
+    background-color: colors.$background;
+    background: url(/images/bila2.png);
+    object-fit: cover;
 }
 
 h1, h2, ul, li {
@@ -35,26 +38,8 @@ section {
 
 
 @media screen and (min-width: 1000px) {
-    body {
-        background-color: colors.$green;
-        background: url(/images/forest.png);
-        padding-top: 20px;
-    }
-
-    .text, footer {
-        max-width: 900px;
+    .content {
         margin: 0 auto;
-        padding: 20px;
+        max-width: 900px;
     }
-
-    .text {
-        background-color: colors.$background;
-        border-radius: 10px 10px 0 0; 
-
-    }
-
-    footer {
-        border-radius: 0 0 10px 10px;
-    }
-
 }
