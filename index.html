@@ -4,6 +4,7 @@ title: MaJa Koučink
 ---
     <!--Hlavní část-->
     <main>
+        
         <section class="news blok">
             <h2 class="news__header blok__header">Aktuality</h2>
             <p class="news__text blok__text">Tady píšeme aktuality. Třeba to, že aktuálně máme hooodně místa pro nové klienty.</p>
@@ -18,5 +19,22 @@ title: MaJa Koučink
                 <li class="intro__item blok__item">Školení</li>
             </ul>
         </section>
+
+        <section class="blok blog--index">
+            <h1 class="blok__header">Blog</h1>
+                <div class="blog__conteiner">
+
+                    {% for article in collections.blog | reverse | limit(3) %}
+            
+                        <div class="blog__article">
+                            <h3 class="blog__name">{{ article.data.title }}</h3>
+                            <p class="blog__description">{{ article.data.perex }}</p>
+                            <a class="blog__link" href="{{ article.url }}">Celý článek</a>
+                        </div>
+
+                    {% endfor %}
+            
+                </div>
+            </section>
 
     </main>
