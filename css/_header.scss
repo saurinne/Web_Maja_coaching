@@ -9,14 +9,14 @@
 
 
 .header__name--main {
-    font-weight: 200;
     padding: 10px 0;
+    font-weight: 500;
 }
 
 
 .header__name--specification {
-    font-weight: 100;
     font-size: 20px;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 640px) {
@@ -28,6 +28,6 @@
     .header__text {
         place-self: center end;
         flex-grow: 1;
-        text-align: right;
+        text-align: center;
     }
 } 

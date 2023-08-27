@@ -44,7 +44,7 @@ body {
   color: #020202;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
   width: 100%;
   position: relative;
   background-color: #E8DED1;
@@ -90,6 +90,7 @@ footer::before {
 .footer__text {
   margin: 7px;
   font-size: 13px;
+  font-weight: 300;
 }
 
 .footer__link {
@@ -131,13 +132,13 @@ footer::before {
 }
 
 .header__name--main {
-  font-weight: 200;
   padding: 10px 0;
+  font-weight: 500;
 }
 
 .header__name--specification {
-  font-weight: 100;
   font-size: 20px;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 640px) {
@@ -148,7 +149,7 @@ footer::before {
   .header__text {
     place-self: center end;
     flex-grow: 1;
-    text-align: right;
+    text-align: center;
   }
 }
 .blok {
