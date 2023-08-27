@@ -1,0 +1,28 @@
+---
+layout: general_template.njk
+title: MaJa Koučink
+---
+
+<main>
+
+    <h1 class="blog_header">Blog</h1>
+
+    <section class="blog">
+        <div class="blog__conteiner">
+
+            {% for article in collections.blog | reverse %}
+    
+                <div class="blog__article">
+                    <h3 class="blog__name">{{ article.data.title }}</h3>
+                    <p class="blog__description">{{ article.data.perex }}</p>
+                    <button class="blog__link"><a class="blog__url" href="{{ article.url }}">Celý článek</a></button>
+                </div>
+    
+            {% endfor %}
+    
+        </div>
+    
+
+
+    </section>
+</main>
