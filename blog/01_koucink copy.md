@@ -1,12 +1,11 @@
 ---
 layout: article.njk
 title: Koučink v kostce
-datum: 2. únor 2022
 tags: blog
 perex: Co je to koučink? A je i pro mne? 
 ---
 
-#Koučink
+# Koučink
 
 
 *Co je to koučink?*

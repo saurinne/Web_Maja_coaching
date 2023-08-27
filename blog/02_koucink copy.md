@@ -1,12 +1,11 @@
 ---
 layout: article.njk
 title: Koučink v kostce 2
-datum: 	{{ now }}
 tags: blog
 perex: Co je to koučink? A je i pro mne? 
 ---
 
-#Koučink
+# Koučink
 
 
 *Co je to koučink?*

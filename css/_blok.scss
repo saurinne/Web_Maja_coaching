@@ -1,3 +1,5 @@
+@use "colors";
+
 .blok {
     margin: 20px;  
 }
@@ -18,4 +20,12 @@
 
 .blok__header {
     margin-top: 30px;
+}
+
+.blok__link {
+    color: colors.$letters;
+}
+
+.intro__list {
+    padding-left: 30px;
 }
