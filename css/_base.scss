@@ -13,7 +13,7 @@ body {
     margin: 0;
     color: colors.$letters;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     width: 100%;
     position: relative;
@@ -21,6 +21,7 @@ body {
     background: url(/images/bila2.png);
     object-fit: cover;
     min-height: 100%;
+    line-height: 120%;
 }
 
 h1, h2, ul, li {
@@ -36,7 +37,6 @@ section {
     margin: 0;
     padding: 0;
 }
-
 
 
 @media screen and (min-width: 1000px) {

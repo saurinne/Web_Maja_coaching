@@ -43,7 +43,7 @@ body {
   margin: 0;
   color: #020202;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   width: 100%;
   position: relative;
@@ -52,6 +52,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   min-height: 100%;
+  line-height: 120%;
 }
 
 h1, h2, ul, li {
@@ -185,7 +186,6 @@ footer::before {
 .contacts__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 16px;
 }
 
 .blog {
@@ -215,6 +215,30 @@ footer::before {
   background-color: #b46a6a;
 }
 
+.article {
+  padding: 20px;
+}
+
+.article__date {
+  text-align: center;
+}
+
+.article__title {
+  text-align: center;
+}
+
+.article__content {
+  line-height: 150%;
+}
+
+.article__header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
 .blog__article::before {
   content: "";
   display: block;
@@ -238,6 +262,10 @@ footer::before {
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
     border: 1px solid #6b5555;
     padding: 15px;
+  }
+  .article {
+    margin: 20px auto 0 auto;
+    max-width: 700px;
   }
 }
 @media screen and (min-width: 1000px) {

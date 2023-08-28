@@ -1,12 +1,10 @@
 ---
 layout: article.njk
-title: Koučink v kostce
+title: Koučink
 tags: blog
 perex: Co je to koučink? A je i pro mne? 
+datum: 28. 8. 2023
 ---
-
-# Koučink
-
 
 *Co je to koučink?*
 
@@ -50,7 +48,9 @@ Kouč může klientovi pomoci *v mnoha oblastech jeho života*. Nejčastěji se 
 
 Témata, se kterými klienti přicházejí, jsou velmi různorodá. Může to být kupříkladu tvorba osobní vize, plánování náročných životních období, profesního směřování, spokojenosti v životě a nebo zlepšení v určité oblasti. Zkrátka, *není špatných cílů.*
 
-*S čím naopak kouč nepomůže?* S cílem, který vede k *trestné činnosti, možnému ublížení klienta sobě, nebo jiné osobě, nebo cílem, který je v rozporu s etickým kodexem*, jimž se kouč řídí. 
+*S čím naopak kouč nepomůže?* 
+
+S cílem, který vede k *trestné činnosti, možnému ublížení klienta sobě, nebo jiné osobě, nebo cílem, který je v rozporu s etickým kodexem*, jimž se kouč řídí. 
 
 *Kouč také není poradce, nebo terapeut*. Témata, která se týkají minulosti, či jiných osob v klientově životě koučovat většinou nelze. Pokud se však klient chce věnovat tématu, které nespadá do koučovacího přístupu, pak kouč zvolí se souhlasem klienta k těmto zakázkám jiný (poradenský, terapeutický, atd.), nebo jej odkáže na příslušného odborníka. Vždy však s cílem *co nejlépe klientovi pomoci*.
 
