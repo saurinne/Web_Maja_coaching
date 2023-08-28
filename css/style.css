@@ -182,6 +182,12 @@ footer::before {
   padding-left: 30px;
 }
 
+.contacts__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 16px;
+}
+
 .blog {
   margin: 20px;
 }
@@ -222,6 +228,7 @@ footer::before {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    margin-top: 16px;
   }
   .blog__article::before {
     display: none;
