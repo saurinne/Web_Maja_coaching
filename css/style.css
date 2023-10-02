@@ -44,11 +44,11 @@ body {
   color: #020202;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   width: 100%;
   position: relative;
   background-color: #E8DED1;
-  background: url(/images/bila2.png);
+  background: url(/images/bila3.png);
   -o-object-fit: cover;
      object-fit: cover;
   min-height: 100%;
